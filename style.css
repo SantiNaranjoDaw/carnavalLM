@@ -105,6 +105,21 @@ main {
 
 @media (max-width: 640px) {
     body {
-        background-color: blueviolet;
+        max-width: 100%;
+        background-color: lightcoral;
+    }
+    header {
+        max-width: 100%;
+    }
+    header nav, footer nav {
+        overflow: scroll;
+    }
+    header img, footer img {
+        width: 100px;
+        justify-self: flex-start;
+    }
+    main {
+        padding: 5px;
+        width: 90%;
     }
 }
